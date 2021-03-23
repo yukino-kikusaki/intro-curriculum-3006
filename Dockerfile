@@ -9,6 +9,6 @@ ENV TZ Asia/Tokyo
 RUN yarn global add yo@3.0.0
 RUN yarn global add generator-hubot-yarn
 RUN yarn global add coffeescript@1.12.7
-RUN useradd hubot-study -m
-USER hubot-study
+RUN useradd intro-curriculum-3006 -m
+USER intro-curriculum-3006
 WORKDIR /home/intro-curriculum-3006
