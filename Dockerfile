@@ -11,4 +11,4 @@ RUN yarn global add generator-hubot-yarn
 RUN yarn global add coffeescript@1.12.7
 RUN useradd hubot-study -m
 USER hubot-study
-WORKDIR /home/hubot-study
+WORKDIR /home/intro-curriculum-3006

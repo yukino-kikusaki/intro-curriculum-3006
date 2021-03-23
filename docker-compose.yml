@@ -4,4 +4,4 @@ services:
     build: .
     tty: true
     volumes:
-      - .:/home/hubot-study
+      - .:/home/intro-curriculum-3006
