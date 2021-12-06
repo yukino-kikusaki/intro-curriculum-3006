@@ -6,9 +6,4 @@ RUN locale-gen ja_JP.UTF-8
 RUN localedef -f UTF-8 -i ja_JP ja_JP
 ENV LANG ja_JP.UTF-8
 ENV TZ Asia/Tokyo
-RUN yarn global add yo@3.0.0
-RUN yarn global add generator-hubot-yarn
-RUN yarn global add coffeescript@1.12.7
-RUN useradd intro-curriculum-3006 -m
-USER intro-curriculum-3006
-WORKDIR /home/intro-curriculum-3006
+WORKDIR /bot-study
